@@ -1,0 +1,15 @@
+D:\DesignPatternsCourse\obj\Debug\net6.0\DesignPatternsCourse.csproj.AssemblyReference.cache
+D:\DesignPatternsCourse\obj\Debug\net6.0\DesignPatternsCourse.GeneratedMSBuildEditorConfig.editorconfig
+D:\DesignPatternsCourse\obj\Debug\net6.0\DesignPatternsCourse.AssemblyInfoInputs.cache
+D:\DesignPatternsCourse\obj\Debug\net6.0\DesignPatternsCourse.AssemblyInfo.cs
+D:\DesignPatternsCourse\obj\Debug\net6.0\DesignPatternsCourse.csproj.CoreCompileInputs.cache
+D:\DesignPatternsCourse\bin\Debug\net6.0\DesignPatternsCourse.exe
+D:\DesignPatternsCourse\bin\Debug\net6.0\DesignPatternsCourse.deps.json
+D:\DesignPatternsCourse\bin\Debug\net6.0\DesignPatternsCourse.runtimeconfig.json
+D:\DesignPatternsCourse\bin\Debug\net6.0\DesignPatternsCourse.dll
+D:\DesignPatternsCourse\bin\Debug\net6.0\DesignPatternsCourse.pdb
+D:\DesignPatternsCourse\obj\Debug\net6.0\DesignPatternsCourse.dll
+D:\DesignPatternsCourse\obj\Debug\net6.0\refint\DesignPatternsCourse.dll
+D:\DesignPatternsCourse\obj\Debug\net6.0\DesignPatternsCourse.pdb
+D:\DesignPatternsCourse\obj\Debug\net6.0\DesignPatternsCourse.genruntimeconfig.cache
+D:\DesignPatternsCourse\obj\Debug\net6.0\ref\DesignPatternsCourse.dll

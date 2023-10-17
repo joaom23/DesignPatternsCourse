@@ -1,0 +1,5 @@
+D:\DesignPatternsCourse\obj\Debug\net6.0\Builder.csproj.AssemblyReference.cache
+D:\DesignPatternsCourse\obj\Debug\net6.0\Builder.GeneratedMSBuildEditorConfig.editorconfig
+D:\DesignPatternsCourse\obj\Debug\net6.0\Builder.AssemblyInfoInputs.cache
+D:\DesignPatternsCourse\obj\Debug\net6.0\Builder.AssemblyInfo.cs
+D:\DesignPatternsCourse\obj\Debug\net6.0\Builder.csproj.CoreCompileInputs.cache
