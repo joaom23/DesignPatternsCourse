@@ -9,6 +9,7 @@ using DesignPatternsCourse.Factories.AbstractFactory;
 using DesignPatternsCourse.Factories.BulkReplacement;
 using DesignPatternsCourse.Factories.PointExample;
 using DesignPatternsCourse.Prototype;
+using DesignPatternsCourse.Singleton;
 using System.Security.Cryptography;
 
 class Program
@@ -34,6 +35,8 @@ class Program
             "10 - Prototype Inheritance",
             "11 - Prototype Serializer",
             "-------------\n",
+            "---Singleton---",
+            "12 - Singleton Exercice",
             "0 - Exit"
         };
 
@@ -98,6 +101,10 @@ class Program
 
                         case 11:
                             RunDemo(new PrototypeSerializerDemo());
+                            break;
+
+                        case 12:
+                            RunDemo(new SingletonExercice());
                             break;
 
                     case 0:
