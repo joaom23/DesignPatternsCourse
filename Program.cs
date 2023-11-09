@@ -1,4 +1,6 @@
 ﻿using DesignPatternsCourse;
+using DesignPatternsCourse.Adapter;
+using DesignPatternsCourse.Bridge;
 using DesignPatternsCourse.Builder;
 using DesignPatternsCourse.Builder.FluentBuilderWithInheritance;
 using DesignPatternsCourse.Builder.FunctionalBuilder;
@@ -18,6 +20,7 @@ class Program
     {
         var options = new List<string>
         {
+            "---Creational Patterns---\n",
             "---BUILDER---",
             "1 - Normal Builder",
             "2 - Builder with inheritance",
@@ -31,12 +34,20 @@ class Program
             "8 - Abstract Factory",
             "9 - Factory exercice",
             "-------------\n",
-            "---Factories---",
+            "---Prototype---",
             "10 - Prototype Inheritance",
             "11 - Prototype Serializer",
             "-------------\n",
             "---Singleton---",
             "12 - Singleton Exercice",
+            "\n---Structural Patterns---\n",
+            "---ADAPTER---",
+            "13 - Adapter Exercice",
+            "\"-------------\n",
+            "---BRIDGE---",
+            "14 - Bridge example",
+            "15 - Bridge exercice",
+            "-------------\n",
             "0 - Exit"
         };
 
@@ -105,6 +116,18 @@ class Program
 
                         case 12:
                             RunDemo(new SingletonExercice());
+                            break;
+
+                        case 13:
+                            RunDemo(new AdapterExercice());
+                            break;
+
+                        case 14:
+                            RunDemo(new BridgeExample());
+                            break;
+
+                        case 15:
+                            RunDemo(new BridgeExercice());
                             break;
 
                     case 0:
