@@ -6,6 +6,8 @@ using DesignPatternsCourse.Builder.FluentBuilderWithInheritance;
 using DesignPatternsCourse.Builder.FunctionalBuilder;
 using DesignPatternsCourse.Builder.NormalBuilder;
 using DesignPatternsCourse.Builder.StepwiseBuilder;
+using DesignPatternsCourse.Composite;
+using DesignPatternsCourse.Decorator;
 using DesignPatternsCourse.Factories;
 using DesignPatternsCourse.Factories.AbstractFactory;
 using DesignPatternsCourse.Factories.BulkReplacement;
@@ -47,6 +49,13 @@ class Program
             "---BRIDGE---",
             "14 - Bridge example",
             "15 - Bridge exercice",
+            "-------------\n",
+            "---COMPOSITE---",
+            "16 - Composite Geometric Shapes",
+            "17 - Composite Exercice",
+            "-------------\n",
+            "---DECORATOR---",
+            "18 - Multiple Inheritance With Interfaces",
             "-------------\n",
             "0 - Exit"
         };
@@ -128,6 +137,18 @@ class Program
 
                         case 15:
                             RunDemo(new BridgeExercice());
+                            break;
+
+                        case 16:
+                            RunDemo(new CompositeGeometricShapes());
+                            break;
+
+                        case 17:
+                            RunDemo(new CompositeExercice());
+                            break;
+
+                        case 18:
+                            RunDemo(new MultipleInheritanceWithInterfaces());
                             break;
 
                     case 0:
