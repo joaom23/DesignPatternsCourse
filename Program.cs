@@ -1,5 +1,6 @@
 ﻿using DesignPatternsCourse;
 using DesignPatternsCourse.Adapter;
+using DesignPatternsCourse.Behavioral_Patterns.ChainOfResponsibility;
 using DesignPatternsCourse.Bridge;
 using DesignPatternsCourse.Builder;
 using DesignPatternsCourse.Builder.FluentBuilderWithInheritance;
@@ -15,8 +16,8 @@ using DesignPatternsCourse.Factories.BulkReplacement;
 using DesignPatternsCourse.Factories.PointExample;
 using DesignPatternsCourse.Flyweight;
 using DesignPatternsCourse.Prototype;
+using DesignPatternsCourse.Proxy;
 using DesignPatternsCourse.Singleton;
-using System.Security.Cryptography;
 
 class Program
 {
@@ -71,7 +72,15 @@ class Program
             "23 - Flyweight Exercice",
             "-------------------------------------------------\n",
             "---PROXY---",
-            "24 - ",
+            "24 - Protection Proxy",
+            "25 - Property Proxy",
+            "26 - Value Proxy",
+            "27 - Composite Proxy",
+            "28 - Proxy Exercice",
+            "-------------------------------------------------\n",
+            "\n---Behavioral Patterns---\n",
+            "---CHAIN OF RESPONSIBILITY---",
+            "29 - Method chain",
             "-------------------------------------------------\n",
             "0 - Exit"
         };
@@ -214,6 +223,30 @@ class Program
 
             case 23:
                 RunDemo(new FlyweightExercice());
+                break;
+
+            case 24:
+                RunDemo(new ProtectionProxy());
+                break;
+
+            case 25:
+                RunDemo(new PropertyProxy());
+                break;
+
+            case 26:
+                RunDemo(new ValueProxy());
+                break;
+
+            case 27:
+                RunDemo(new CompositeProxy());
+                break;
+
+            case 28:
+                RunDemo(new ProxyExercice());
+                break;
+
+            case 29:
+                RunDemo(new MethodChain());
                 break;
 
             case 0:
