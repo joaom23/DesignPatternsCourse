@@ -1,6 +1,7 @@
 ﻿using DesignPatternsCourse;
 using DesignPatternsCourse.Adapter;
 using DesignPatternsCourse.Behavioral_Patterns.ChainOfResponsibility;
+using DesignPatternsCourse.Behavioral_Patterns.Command;
 using DesignPatternsCourse.Bridge;
 using DesignPatternsCourse.Builder;
 using DesignPatternsCourse.Builder.FluentBuilderWithInheritance;
@@ -81,6 +82,16 @@ class Program
             "\n---Behavioral Patterns---\n",
             "---CHAIN OF RESPONSIBILITY---",
             "29 - Method chain",
+            "30 - Broker chain",
+            "31 - Chain of Responsibility exercice",
+            "-------------------------------------------------\n",
+            "--- COMMAND ---",
+            "32 - Command with undo",
+            "33 - Composite Command",
+            "34- Command Exercice",
+            "-------------------------------------------------\n",
+            "--- INTERPRETER ---",
+            "35 - ",
             "-------------------------------------------------\n",
             "0 - Exit"
         };
@@ -247,6 +258,26 @@ class Program
 
             case 29:
                 RunDemo(new MethodChain());
+                break;
+
+            case 30:
+                RunDemo(new BrokerChain());
+                break;
+
+            case 31:
+                RunDemo(new ChainOfResponsibilityExercice());
+                break;
+
+            case 32:
+                RunDemo(new CommandWithUndo());
+                break;
+
+            case 33:
+                RunDemo(new CompositeCommand());
+                break;
+
+            case 34:
+                RunDemo(new CommandExercice());
                 break;
 
             case 0:
