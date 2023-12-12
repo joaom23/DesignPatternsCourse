@@ -3,6 +3,7 @@ using DesignPatternsCourse.Adapter;
 using DesignPatternsCourse.Behavioral_Patterns.ChainOfResponsibility;
 using DesignPatternsCourse.Behavioral_Patterns.Command;
 using DesignPatternsCourse.Behavioral_Patterns.MediatorPattern;
+using DesignPatternsCourse.Behavioral_Patterns.Memento;
 using DesignPatternsCourse.Bridge;
 using DesignPatternsCourse.Builder;
 using DesignPatternsCourse.Builder.FluentBuilderWithInheritance;
@@ -94,12 +95,14 @@ class Program
             "--- ITERATOR ---",
             "-------------------------------------------------\n",
             "--- MEDIATOR ---",
-            "35 - Chat room exmaple",
+            "35 - Chat room example",
             "36 - Event broker example",
             "37 - Mediator Exercice",
             "-------------------------------------------------\n",
             "--- MEMENTO ---",
-            "38 - ",
+            "38 - Memento Example",
+            "39 - Undo and Redo",
+            "40 - Memento Exercice",
             "-------------------------------------------------\n",
             "0 - Exit"
         };
@@ -298,6 +301,18 @@ class Program
 
             case 37:
                 RunDemo(new MediatorExercice());
+                break;
+
+            case 38:
+                RunDemo(new MementoExample());
+                break;
+
+            case 39:
+                RunDemo(new UndoAndRedo());
+                break;
+
+            case 40:
+                RunDemo(new MementoExercice());
                 break;
 
             case 0:
