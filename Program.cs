@@ -2,6 +2,7 @@
 using DesignPatternsCourse.Adapter;
 using DesignPatternsCourse.Behavioral_Patterns.ChainOfResponsibility;
 using DesignPatternsCourse.Behavioral_Patterns.Command;
+using DesignPatternsCourse.Behavioral_Patterns.MediatorPattern;
 using DesignPatternsCourse.Bridge;
 using DesignPatternsCourse.Builder;
 using DesignPatternsCourse.Builder.FluentBuilderWithInheritance;
@@ -88,12 +89,17 @@ class Program
             "--- COMMAND ---",
             "32 - Command with undo",
             "33 - Composite Command",
-            "34- Command Exercice",
+            "34 - Command Exercice",
             "-------------------------------------------------\n",
             "--- ITERATOR ---",
             "-------------------------------------------------\n",
             "--- MEDIATOR ---",
-            "35 - ",
+            "35 - Chat room exmaple",
+            "36 - Event broker example",
+            "37 - Mediator Exercice",
+            "-------------------------------------------------\n",
+            "--- MEMENTO ---",
+            "38 - ",
             "-------------------------------------------------\n",
             "0 - Exit"
         };
@@ -280,6 +286,18 @@ class Program
 
             case 34:
                 RunDemo(new CommandExercice());
+                break;
+
+            case 35:
+                RunDemo(new ChatRoomExample());
+                break;
+
+            case 36:
+                RunDemo(new EventBrokerExample());
+                break;
+
+            case 37:
+                RunDemo(new MediatorExercice());
                 break;
 
             case 0:
