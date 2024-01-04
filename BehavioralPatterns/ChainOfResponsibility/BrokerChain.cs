@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsCourse.Behavioral_Patterns.ChainOfResponsibility;
+﻿namespace DesignPatternsCourse.BehavioralPatterns.ChainOfResponsibility;
 public class BrokerChain : IDemo
 {
     public void Run()

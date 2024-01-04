@@ -1,9 +1,11 @@
 ﻿using DesignPatternsCourse;
 using DesignPatternsCourse.Adapter;
-using DesignPatternsCourse.Behavioral_Patterns.ChainOfResponsibility;
-using DesignPatternsCourse.Behavioral_Patterns.Command;
-using DesignPatternsCourse.Behavioral_Patterns.MediatorPattern;
-using DesignPatternsCourse.Behavioral_Patterns.Memento;
+using DesignPatternsCourse.BehavioralPatterns.ChainOfResponsibility;
+using DesignPatternsCourse.BehavioralPatterns.Command;
+using DesignPatternsCourse.BehavioralPatterns.MediatorPattern;
+using DesignPatternsCourse.BehavioralPatterns.Memento;
+using DesignPatternsCourse.BehavioralPatterns.Strategy;
+using DesignPatternsCourse.BehavioralPatterns.TemplateMethod;
 using DesignPatternsCourse.Bridge;
 using DesignPatternsCourse.Builder;
 using DesignPatternsCourse.Builder.FluentBuilderWithInheritance;
@@ -104,8 +106,20 @@ class Program
             "39 - Undo and Redo",
             "40 - Memento Exercice",
             "-------------------------------------------------\n",
-            "--- OBSERVER ---",
-            "41 - ",
+            " --- OBERSERVER ---",
+            "-------------------------------------------------\n",
+            "--- STATE ---",
+            "-------------------------------------------------\n",
+            "--- STRATEGY ---",
+            "41 - Dynamic strategy",
+            "42 - Static strategy",
+            "-------------------------------------------------\n",
+            "--- TEMPLATE METHOD ---",
+            "43 - Template method",
+            "44 - Functional template method",
+            "-------------------------------------------------\n",
+            "--- VISITOR ---",
+            "45 - ",
             "-------------------------------------------------\n",
             "0 - Exit"
         };
@@ -316,6 +330,22 @@ class Program
 
             case 40:
                 RunDemo(new MementoExercice());
+                break;
+
+            case 41:
+                RunDemo(new DynamicStrategy());
+                break;
+
+            case 42:
+                RunDemo(new StaticStrategy());
+                break;
+
+            case 43:
+                RunDemo(new TemplateMethod());
+                break;
+
+            case 44:
+                RunDemo(new FunctionalTemplateMethod());
                 break;
 
             case 0:

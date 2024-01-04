@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsCourse.Behavioral_Patterns.MediatorPattern;
+﻿namespace DesignPatternsCourse.BehavioralPatterns.MediatorPattern;
 
 public class ChatRoomExample : IDemo
 {

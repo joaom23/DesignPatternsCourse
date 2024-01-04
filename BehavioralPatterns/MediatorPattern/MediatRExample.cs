@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using MediatR;
 
-namespace DesignPatternsCourse.Behavioral_Patterns.MediatorPattern;
+namespace DesignPatternsCourse.BehavioralPatterns.MediatorPattern;
 internal class MediatRExample : IDemo
 {
     public async void Run()

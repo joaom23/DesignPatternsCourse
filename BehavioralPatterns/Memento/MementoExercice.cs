@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace DesignPatternsCourse.Behavioral_Patterns.Memento;
+namespace DesignPatternsCourse.BehavioralPatterns.Memento;
 
 public class MementoExercice : IDemo
 {

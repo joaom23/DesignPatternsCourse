@@ -2,7 +2,7 @@
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 
-namespace DesignPatternsCourse.Behavioral_Patterns.MediatorPattern;
+namespace DesignPatternsCourse.BehavioralPatterns.MediatorPattern;
 
 public class EventBrokerExample : IDemo
 {

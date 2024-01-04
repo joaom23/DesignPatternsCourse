@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsCourse.Behavioral_Patterns.Memento;
+﻿namespace DesignPatternsCourse.BehavioralPatterns.Memento;
 
 public class UndoAndRedo : IDemo
 {

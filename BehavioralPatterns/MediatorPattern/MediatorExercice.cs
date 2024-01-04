@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsCourse.Behavioral_Patterns.MediatorPattern;
+﻿namespace DesignPatternsCourse.BehavioralPatterns.MediatorPattern;
 public class MediatorExercice : IDemo
 {
     public void Run()

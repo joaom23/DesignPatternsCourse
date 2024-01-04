@@ -1,6 +1,6 @@
 ﻿
 
-namespace DesignPatternsCourse.Behavioral_Patterns.ChainOfResponsibility;
+namespace DesignPatternsCourse.BehavioralPatterns.ChainOfResponsibility;
 public class ChainOfResponsibilityExercice : IDemo
 {
     public void Run()

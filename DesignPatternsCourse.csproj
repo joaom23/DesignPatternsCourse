@@ -8,14 +8,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="BehavioralPatterns\State\**" />
+    <EmbeddedResource Remove="BehavioralPatterns\State\**" />
+    <None Remove="BehavioralPatterns\State\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Autofac" Version="7.1.0" />
     <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="System.Reactive" Version="6.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Behavioral Patterns\Observer\" />
   </ItemGroup>
 
 </Project>

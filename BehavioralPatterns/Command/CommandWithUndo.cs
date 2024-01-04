@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsCourse.Behavioral_Patterns.Command;
+﻿namespace DesignPatternsCourse.BehavioralPatterns.Command;
 public class CommandWithUndo : IDemo
 {
     public void Run()
