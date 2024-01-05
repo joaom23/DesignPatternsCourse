@@ -7,7 +7,7 @@ public class DecoratorExercice : IDemo
         var d = new Dragon();
         d.Age = 1;
         Console.WriteLine(d.Crawl());
-        Console.WriteLine(d.Fly()); 
+        Console.WriteLine(d.Fly());
         Console.WriteLine(d);
     }
 
@@ -38,7 +38,7 @@ public class DecoratorExercice : IDemo
 
         public Dragon()
         {
-                
+
         }
 
         private int age;
@@ -46,7 +46,7 @@ public class DecoratorExercice : IDemo
         public int Age
         {
             get { return age; }
-            set 
+            set
             {
                 bird.Age = value;
                 lizard.Age = value;

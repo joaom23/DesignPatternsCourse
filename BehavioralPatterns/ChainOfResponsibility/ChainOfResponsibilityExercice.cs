@@ -5,7 +5,7 @@ public class ChainOfResponsibilityExercice : IDemo
 {
     public void Run()
     {
-        
+
     }
 
     public abstract class Creature

@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace DesignPatternsCourse.Factories.PointExample;
+﻿namespace DesignPatternsCourse.Factories.PointExample;
 public class PointFactory
 {
     public static Point NewCartesianPoint(float x, float y)

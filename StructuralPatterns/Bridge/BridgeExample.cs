@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace DesignPatternsCourse.Bridge;
+﻿namespace DesignPatternsCourse.Bridge;
 public class BridgeExample : IDemo
 {
     public void Run()

@@ -6,6 +6,7 @@ using DesignPatternsCourse.BehavioralPatterns.MediatorPattern;
 using DesignPatternsCourse.BehavioralPatterns.Memento;
 using DesignPatternsCourse.BehavioralPatterns.Strategy;
 using DesignPatternsCourse.BehavioralPatterns.TemplateMethod;
+using DesignPatternsCourse.BehavioralPatterns.Visitor;
 using DesignPatternsCourse.Bridge;
 using DesignPatternsCourse.Builder;
 using DesignPatternsCourse.Builder.FluentBuilderWithInheritance;
@@ -119,7 +120,12 @@ class Program
             "44 - Functional template method",
             "-------------------------------------------------\n",
             "--- VISITOR ---",
-            "45 - ",
+            "45 - Instrusive visitor",
+            "46 - Reflectice visitor",
+            "47 - Classic visitor",
+            "48 - Reductions and transformers",
+            "49 - Dynamic visitor",
+            "50 - Acyclic visitor",
             "-------------------------------------------------\n",
             "0 - Exit"
         };
@@ -346,6 +352,30 @@ class Program
 
             case 44:
                 RunDemo(new FunctionalTemplateMethod());
+                break;
+
+            case 45:
+                RunDemo(new IntrusiveVisitor());
+                break;
+
+            case 46:
+                RunDemo(new ReflectiveVisitor());
+                break;
+
+            case 47:
+                RunDemo(new ClassicVisitor());
+                break;
+
+            case 48:
+                RunDemo(new ReductionsAndTransformers());
+                break;
+
+            case 49:
+                RunDemo(new DynamicVisitor());
+                break;
+
+            case 50:
+                RunDemo(new AcyclicVisitor());
                 break;
 
             case 0:

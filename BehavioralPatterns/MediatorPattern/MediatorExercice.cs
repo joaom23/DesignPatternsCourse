@@ -17,7 +17,7 @@ public class MediatorExercice : IDemo
     public class Participant
     {
         private Mediator _mediator;
-        private string Name; 
+        private string Name;
         public int Value { get; set; }
 
         public Participant(Mediator mediator, string name)
@@ -47,11 +47,11 @@ public class MediatorExercice : IDemo
             participants.Add(p);
         }
 
-        public void BroadCast(int n, Participant self) 
+        public void BroadCast(int n, Participant self)
         {
             foreach (var p in participants)
             {
-                if(p.GetHashCode() != self.GetHashCode())
+                if (p.GetHashCode() != self.GetHashCode())
                 {
                     p.Value += n;
                 }

@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography;
-
-namespace DesignPatternsCourse.Proxy;
+﻿namespace DesignPatternsCourse.Proxy;
 
 public class ProxyExercice : IDemo
 {
@@ -47,7 +45,7 @@ public class ProxyExercice : IDemo
             _person = person;
         }
 
-        public int Age 
+        public int Age
         {
             get => _person.Age;
             set => _person.Age = value;
@@ -55,9 +53,9 @@ public class ProxyExercice : IDemo
 
         public string Drink()
         {
-            if(Age > 18)
+            if (Age > 18)
             {
-               return _person.Drink();
+                return _person.Drink();
             }
 
             return "too young";
@@ -70,7 +68,7 @@ public class ProxyExercice : IDemo
 
         public string Drive()
         {
-            if(Age > 16)
+            if (Age > 16)
             {
                 return _person.Drive();
             }

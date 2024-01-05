@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Diagnostics.CodeAnalysis;
 using static DesignPatternsCourse.Composite.CompositeExercice;
 
 namespace DesignPatternsCourse.Composite;
@@ -21,7 +20,7 @@ public class CompositeExercice : IDemo
     public void Run()
     {
         var singleValue = new SingleValue(1);
-        var multipleValues = new ManyValues(new List<int> { 1, 2 ,3});
+        var multipleValues = new ManyValues(new List<int> { 1, 2, 3 });
         var allValues = new ManyValues(singleValue, multipleValues);
 
         Console.WriteLine($"Single value: {singleValue.Sum()}");

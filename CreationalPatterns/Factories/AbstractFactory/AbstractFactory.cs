@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace DesignPatternsCourse.Factories.AbstractFactory;
+﻿namespace DesignPatternsCourse.Factories.AbstractFactory;
 
 public interface IHotDrink
 {
@@ -93,7 +90,7 @@ public class HotDrinkMachine
         {
             string s;
             if ((s = Console.ReadLine()) != null
-                && int.TryParse(s, out int i) 
+                && int.TryParse(s, out int i)
                 && i >= 0
                 && i < namedFactories.Count)
             {

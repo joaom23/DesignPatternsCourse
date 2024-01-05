@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatternsCourse.Factories;
+﻿namespace DesignPatternsCourse.Factories;
 public class FactoryExercice : IDemo
 {
     public void Run()
@@ -35,7 +29,7 @@ public class FactoryExercice : IDemo
         public static int idTracking;
 
         public Person CreatePerson(string name)
-        { 
+        {
             var newPerson = new Person(idTracking, name);
             idTracking++;
             return newPerson;

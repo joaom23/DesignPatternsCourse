@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatternsCourse.Factories.PointExample;
+﻿namespace DesignPatternsCourse.Factories.PointExample;
 public class Point
 {
     private double x, y;

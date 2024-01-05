@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-
-namespace DesignPatternsCourse.Factories.PointExample;
+﻿namespace DesignPatternsCourse.Factories.PointExample;
 internal class PointeExampleDemo : IDemo
 {
     public void Run()

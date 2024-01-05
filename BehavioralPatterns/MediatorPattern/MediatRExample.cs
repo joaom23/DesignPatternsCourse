@@ -1,5 +1,4 @@
-﻿using Autofac;
-using MediatR;
+﻿using MediatR;
 
 namespace DesignPatternsCourse.BehavioralPatterns.MediatorPattern;
 internal class MediatRExample : IDemo
@@ -41,7 +40,7 @@ internal class MediatRExample : IDemo
     {
         // nothing here
     }
-  
+
     public class PingCommandHandler : IRequestHandler<PingCommand, PongResponse>
     {
         public async Task<PongResponse> Handle(PingCommand request, CancellationToken cancellationToken)
